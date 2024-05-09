@@ -5,7 +5,7 @@ import warnings
 warnings.filterwarnings("ignore")
 
 app = FastAPI()
-client = OpenAI(api_key="sk-proj-DV07qCmqoBFVdqkla4uHT3BlbkFJUwi8mdzu4Zgpt1o27dtL")
+client = OpenAI(api_key="sk-)
 
 def generate_a(texto):
     """Genera una respuesta a la pregunta del usuario utilizando la API de OpenAI."""
